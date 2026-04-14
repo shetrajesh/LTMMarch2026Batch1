@@ -1,5 +1,6 @@
 package com.example.LTMMarch2026Batch1.model;
 
+
 import java.util.Scanner;
 
 public class Employee {
@@ -13,6 +14,7 @@ public class Employee {
         int employeeId=sc.nextInt();
         String employeeName=sc.nextLine();
     }
+
 
     public Employee() {
     }
@@ -34,9 +36,9 @@ public class Employee {
     }
 
 
-
-    public void display() {
-
+    public void display(){
+        System.out.println("Employee Id: "+employeeId);
+        System.out.println("Employee Name: "+employeeName);
     }
 
 }
